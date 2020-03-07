@@ -1,0 +1,124 @@
+body{
+    background-image: url(../img/p04.jpg) ;
+    background-size: cover;
+
+   
+   margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.maindiv{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-bottom: black 3px solid;
+
+    
+}
+    
+}
+ul{
+    margin: 0;
+    padding: 10px;
+   
+
+}
+.maindiv .nav li{
+    color: #ffffff;
+text-decoration:none;
+text-transform: uppercase;
+font-size: 16px;
+}
+nav a:hover{
+    color:silver;
+    font-weight: bolder;
+}
+li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+.maindiv img{
+    float: left;
+}
+nav{
+    float: right;
+    
+}
+.maindiv{
+
+}
+.story{
+    width: 50%;
+    margin: auto;
+  overflow: hidden;
+  background:linear-gradient(to bottom,white,#999897);
+  border: black 3px solid;
+  float: right;
+  margin-bottom: 20px;
+  
+}
+.story_1{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.table{
+    width: 50%;
+    float: right;
+    margin: auto;
+    overflow: hidden;
+    background: linear-gradient(to bottom,#999897,white);
+}
+.wonders{
+    width: 100%;
+    border-bottom: black 3px solid;
+
+    
+    
+}
+.navigation{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+padding: 0 20px 30px 20px;
+}
+.newwonders h1{
+    text-align: center;
+    font-size: 20px
+}
+footer{
+    margin: 10px;
+    padding: 10px;
+background: #999897;
+
+}
+.footer li a:hover{
+
+color: white;
+
+}
+footer p{
+    text-align: center;
+    
+    margin-top: 10px;
+    padding: 0px;
+    color: white;
+}
+.footer li{
+    display: inline-block;
+}
+
+}
+.maindiv h1 .highlight{
+    color: black;
+}
+.maindiv h1 .white{
+    color: white;
+}
+
