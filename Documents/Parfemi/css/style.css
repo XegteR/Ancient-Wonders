@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0.8382703423166141) 42%, rgba(0,0,0,1) 94%);
+    
+}
+.nav-links{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:radial-gradient();
+    
+
+    
+}
+.logo {
+    width: auto;
+    height: auto;
+    display: flex;
+    
+}
+.logo img{
+    width: 50px;
+    height: 90px;
+    margin: 20px 0 0 0;
+   
+    
+
+}
+.nav-link{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 20px 0 20px;
+
+    
+}
+.nav-link a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.logo h1{
+    font-size: 55px;
+    font-style: oblique;
+    color:white;
+}
+.nav-link:hover a{
+    
+    font-weight: bold;
+}
+.parfemi{
+    width: 100%;
+    height: auto;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+
+   
+    
+    
+
+}
+.parfem img{
+    height: 500px;
+    border: 5px solid;
+
+}
+.parfem1{
+    background: transparent;
+    
+    width: 50%;
+    
+    position: relative;
+    height: 500px;
+    border: black 5px solid;
+    
+    
+    
+}
+
+    
+    
+}
+.parfem{
+    width: 100%;
+}
+.parfem1 h3,p{
+color: black;
+position: relative;
+padding:100px;
+
+text-align: center;
+}
+.products{
+    height: 1000px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    
+    overflow: hidden;
+    margin-top: 200px;
+    
+}
+.for-men img{
+    
+    width: 70%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+    cursor: pointer;
+    
+
+    
+    
+}
+.for-men h2{
+  width: 20%;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+   float: left;
+    color: white;
+    
+    
+    
+   
+    
+
+    
+    
+}
+.for-women img{
+    
+    width: 70%;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+    
+
+    
+    
+}
+.for-women h2{
+    width: 20%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: rgb(250, 60, 149);
+    font-style: italic;
+    
+
+    
+    
+}
+.for-women{
+    
+}
+.hover{
+    position: relative;
+}
+.hover h2{
+    position: absolute;
+    bottom: 90%;
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    font-size: 50px;
+    font-family: fantasy;
+    transition: 0.7s ease-in-out;
+}
+.hover1{
+    position: relative;
+}
+.hover1 h2{
+    position: absolute;
+    bottom: 90%;
+    margin: auto;
+    width: 100%;
+    font-size: 50px;
+    font-family: fantasy;
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+    
+.hover1:hover h2{
+    opacity: 1;
+    transform: 1s;
+    background: transparent;
+}
+.hover:hover h2{
+    opacity: 1;
+    transform: 1s;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+
